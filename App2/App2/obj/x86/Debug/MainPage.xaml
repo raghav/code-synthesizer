@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="AppName" HorizontalAlignment="Left" Margin="480,80,0,0" Text="Code Synthesizer" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="80" Width="640"/>
+        <TextBlock x:ConnectionId='2' x:Name="FileName" HorizontalAlignment="Left" Margin="748,300,0,0" Text="No file chosen" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35"/>
+        <Button x:ConnectionId='3' x:Name="BrowseFiles" Content="Browse" HorizontalAlignment="Left" Margin="331,282,0,0" VerticalAlignment="Top" FontSize="40" Width="325"                          />
+        <RadioButton x:ConnectionId='4' x:Name="WebRadio" Content="Web Application" HorizontalAlignment="Left" Margin="325,403,0,0" VerticalAlignment="Top" FontSize="36" GroupName="CodeType" Width="395" Height="75"/>
+        <RadioButton x:ConnectionId='5' x:Name="AndroidRadio" Content="Android Application" HorizontalAlignment="Left" Margin="805,483,0,0" VerticalAlignment="Top" FontSize="36" GroupName="CodeType" Height="80" Width="400"/>
+        <RadioButton x:ConnectionId='6' x:Name="WindowsRadio" Content="Windows Application" HorizontalAlignment="Left" Margin="325,478,0,0" VerticalAlignment="Top" FontSize="36" GroupName="CodeType" Height="75" Width="400"/>
+        <RadioButton x:ConnectionId='7' x:Name="IosRadio" Content="IOS Application" HorizontalAlignment="Left" Margin="805,403,0,0" VerticalAlignment="Top" FontSize="36" GroupName="CodeType" Height="75" Width="395"/>
+        <Button x:ConnectionId='8' x:Name="SubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="635,665,0,0" VerticalAlignment="Top" FontSize="50"                        />
+        <TextBlock x:ConnectionId='9' x:Name="ErrorBlock" HorizontalAlignment="Left" Margin="327,590,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Foreground="Red"/>
+
+    </Grid>
+</Page>
+

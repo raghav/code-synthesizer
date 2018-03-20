@@ -1,0 +1,18 @@
+{
+  	"opening-tag": "{",
+  	"closing-tag": "}",
+	"body": "<Page\n\tx:Class=\"App1.MainPage\"\n\txmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\n\txmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\"\n\txmlns:local=\"using:App1]\"\n\txmlns:d=\"http://schemas.microsoft.com/expression/blend/2008\"\n\txmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"\n\tmc:Ignorable=\"d\">\n\n\t<Grid Background=\"{ThemeResource ApplicationPageBackgroundThemeBrush}\">\n\t\t<Grid.RowDefinitions>\n\t\t\t<RowDefinition Height=\"*\"/>\n\t\t\t<RowDefinition Height=\"auto\"/>\n\t\t</Grid.RowDefinitions>\n\t\t{}\n\t</Grid>\n</Page>",
+	"stack": "<StackPanel Orientation=\"Vertical\" Grid.Row=\"0\" Padding=\"10\">\n\t{}\n</StackPanel>",
+	"row": "<StackPanel Orientation=\"Horizontal\" Padding=\"10\">\n\t{}\n</StackPanel>",
+	"label": "<TextBlock x:Name=\"[ID]\" Text=\"[TEXT]\" TextWrapping=\"Wrap\" Margin=\"0,0,10,0\"/>",
+	"btn": "<Button x:Name=\"[ID]\" Content=\"[TEXT]\" Margin=\"0,0,10,0\"/>",
+	"slider": "<Slider x:Name=\"[ID]\" Height=\"50\" Width=\"150\" MinWidth=\"0\" Margin=\"0,0,10,0\"/>",
+	"check": "<CheckBox x:Name=\"[ID]\" Content=\"[TEXT]\" Margin=\"0,0,10,0\"/>",
+	"radio": "<RadioButton x:Name=\"[ID]\" Content=\"[TEXT]\" Margin=\"0,0,10,0\"/>",
+	"switch": "<ToggleSwitch x:Name=\"[ID]\" OffContent=\"[TEXT]\" OnContent=\"[TEXT]\" Margin=\"0,0,10,0\"/>",
+	"footer": "<StackPanel Grid.Row=\"1\" Orientation=\"Horizontal\" Padding=\"10\">\n\t{}\n</StackPanel>",
+	"btn-home": "<Image x:Name=\"[ID]\" Source=\"Assets/LockScreenLogo.scale-200.png\" Margin=\"0,0,10,0\"/>",
+	"btn-dashboard": "<Image x:Name=\"[ID]\" Source=\"Assets/LockScreenLogo.scale-200.png\" Margin=\"0,0,10,0\"/>",
+	"btn-notifications": "<Image x:Name=\"[ID]\" Source=\"Assets/LockScreenLogo.scale-200.png\" Margin=\"0,0,10,0\"/>",
+	"btn-search": "<Image x:Name=\"[ID]\" Source=\"Assets/LockScreenLogo.scale-200.png\" Margin=\"0,0,10,0\"/>"
+}

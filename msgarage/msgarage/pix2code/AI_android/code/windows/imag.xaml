@@ -1,0 +1,35 @@
+<Page
+	x:Class="App1.MainPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:App1]"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d">
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="auto"/>
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Vertical" Grid.Row="0" Padding="10">
+	<StackPanel Orientation="Horizontal" Padding="10">
+	<Button x:Name="PGnjHoCdNs" Content="Mbqwa" Margin="0,0,10,0"/><ToggleSwitch x:Name="DChUSwkvhF" OffContent="Ojhsp" OnContent="Ojhsp" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<CheckBox x:Name="gjyPTsCwgf" Content="Poknx" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<TextBlock x:Name="rEWLlWeJlU" Text="Wpjuq" TextWrapping="Wrap" Margin="0,0,10,0"/><Slider x:Name="KXGHhITOiD" Height="50" Width="150" MinWidth="0" Margin="0,0,10,0"/><TextBlock x:Name="jjdcDMtLIf" Text="Hxnbz" TextWrapping="Wrap" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<ToggleSwitch x:Name="cLSrHrcJeB" OffContent="Tbchg" OnContent="Tbchg" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<ToggleSwitch x:Name="mUtuIikEIk" OffContent="Brimp" OnContent="Brimp" Margin="0,0,10,0"/><ToggleSwitch x:Name="HigNkdODDS" OffContent="Iedrn" OnContent="Iedrn" Margin="0,0,10,0"/><Button x:Name="TtUVjXGrKH" Content="Umlin" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<Button x:Name="BdxHRLDIUs" Content="Cwcle" Margin="0,0,10,0"/><Button x:Name="kEBCxEcjOt" Content="Ettsz" Margin="0,0,10,0"/>
+</StackPanel><StackPanel Orientation="Horizontal" Padding="10">
+	<CheckBox x:Name="SFeoQAZSfb" Content="Peywc" Margin="0,0,10,0"/>
+</StackPanel>
+</StackPanel><StackPanel Grid.Row="1" Orientation="Horizontal" Padding="10">
+	<Image x:Name="bcBDmVuOTa" Source="Assets/LockScreenLogo.scale-200.png" Margin="0,0,10,0"/><Image x:Name="ybMTZlKjJE" Source="Assets/LockScreenLogo.scale-200.png" Margin="0,0,10,0"/><Image x:Name="QULZwYKTGA" Source="Assets/LockScreenLogo.scale-200.png" Margin="0,0,10,0"/>
+</StackPanel>
+	</Grid>
+</Page>

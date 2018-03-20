@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tonybeltramelli.android_gui.MainActivity">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<CheckBox android:id="@+id/MIOqtQEXqa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Tibiq"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Switch android:id="@+id/qLJGsVCtRK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Upwmh"/><Button android:id="@+id/ZuOSGusUfu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vpkct"/><Switch android:id="@+id/FYiiFYSRdh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Kcjex"/><Switch android:id="@+id/GNCYDSnEVv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Aeywj"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/okuRDcHJuC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ovqab" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<Button android:id="@+id/NIodBGkXfJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vbbyk"/><Button android:id="@+id/JMxTiRsLAs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Qmddc"/><Button android:id="@+id/yBIEhZiOWS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pqlvt"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Switch android:id="@+id/HsabZhdBeG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Nvqrj"/><Button android:id="@+id/pHrJiwAZll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gqqgu"/><Button android:id="@+id/kSUHtGWvtD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rvcuy"/><Button android:id="@+id/HpytBCvtEo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vakvw"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<RadioButton android:id="@+id/UwcUdUGbYo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Qdmof"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<RadioButton android:id="@+id/BpkFyrPwzN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Tzknl"/>
+</LinearLayout>
+    </LinearLayout>
+</FrameLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+    <Button android:id="@+id/aEmotWVRuI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#ffffff" android:layout_weight="1" android:drawableBottom="@mipmap/ic_dashboard_black_24dp" android:text=""/><Button android:id="@+id/ANspCnrIfK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#ffffff" android:layout_weight="1" android:drawableBottom="@mipmap/ic_dashboard_black_24dp" android:text=""/><Button android:id="@+id/piqwsBuOWR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#ffffff" android:layout_weight="1" android:drawableBottom="@mipmap/ic_dashboard_black_24dp" android:text=""/><Button android:id="@+id/mxxUXQjDWl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#ffffff" android:layout_weight="1" android:drawableBottom="@mipmap/ic_dashboard_black_24dp" android:text=""/>
+</LinearLayout>
+</LinearLayout>
